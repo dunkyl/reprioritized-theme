@@ -1,9 +1,9 @@
 {
-	"name": "Reprioritized",
+	"name": "Reprioritized Dark",
 	"colors": {
-		"editor.background": "#2b2727",
-		"editor.foreground": "#9d6a71",
-		"editor.selectionBackground": "#4e3c4d",
+		"editor.background": "#F6F6F6",
+		"editor.foreground": "#C3B5B7",
+		"editor.selectionBackground": "#D5A8E8",
 
 		"titleBar.activeBackground": "#c42d92",
 		// "titleBar.activeBackground": "#180d14",
@@ -17,32 +17,35 @@
 		"icon.foreground": "#ffffff",
 
 		"activityBarBadge.background": "#ea11a2",
-		"activityBar.background": "#2b2727",
+		"activityBar.background": "#94888B",
 
-		"sideBar.background": "#221e1e",
-		"editorGroup.border": "#ff0000",
-		"sideBarSectionHeader.background": "#322b2b",
+		"sideBar.background": "#F6F6F6",
+		"sideBarSectionHeader.background": "#f0f0f0",
 
 		// "statusBar.background": "#c42d92",
-		"statusBar.background": "#221e1e",
-		"statusBar.foreground": "#d5cece",
+		"statusBar.background": "#f0f0f0",
+		"statusBar.foreground": "#6F6B6B",
 		"statusBarItem.remoteForeground": "#ffffff",
 		"statusBarItem.remoteBackground": "#ea11a2",
 
-		"tab.inactiveBackground": "#221e1e",
-		"tab.activeForeground": "#bbbbbb",
+		"tab.inactiveBackground": "#E8E8E8",
+		"tab.inactiveForeground": "#837A7A",
+		"tab.activeForeground": "#4D4D4D",
 		"tab.activeBorderTop": "#ea11a2",
-		"tab.activeBorder": "#413737",
+		"tab.activeBorder": "#D0BEBE",
 
 		"button.background": "#c42d92",
 		"list.activeSelectionBackground": "#ab5b90",
 		"list.focusAndSelectionOutline": "#bb629d",
 		"menu.selectionBackground": "#ea11a2",
 		"input.border": "#7b5279",
-		"textLink.foreground": "#6b52db",
+		"textLink.foreground": "#44358A",
 		"focusBorder": "#dbc0f5",
+
+		"editorGutter.background": "#DFDFDF",
+		"editorLineNumber.foreground": "#726C6C",
 		
-		"editorBracketHighlight.foreground1": "#9d6a71", // ebfdf4
+		"editorBracketHighlight.foreground1": "#C3B5B7", // ebfdf4
         "editorBracketHighlight.foreground2": "#99e6e6",
         "editorBracketHighlight.foreground3": "#dbc0f5",
         "editorBracketHighlight.foreground4": "#e0889e",
@@ -56,67 +59,73 @@
 			"scope": [ "comment", "punctuation.definition.comment" ],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#43ddf1"
+				"foreground": "#1299AB"
 			}
 		}, {
 			"name": "String",
 			"scope": [ "punctuation.definition.string.begin", "punctuation.definition.string.end" ],
 			"settings": {
-				"foreground": "#9d6a71"
+				"foreground": "#C3B5B7"
 			}
 		}, {
 			"name": "String",
 			"scope": [ "string" ],
 			"settings": {
-				"foreground": "#66c59d"
+				"foreground": "#2D9F70"
 			}
 		}, {
 			"name": "StringStorage",
 			"scope": [ "storage.type.string" ],
 			"settings": {
-				"foreground": "#18a740"
+				"foreground": "#078129"
 			}
 		}, {
 			"name": "Number or Literal",
 			"scope": [ "constant.numeric", "constant.language" ],
 			"settings": {
-				"foreground": "#e77aff"
+				"foreground": "#B032CC"
 			}
 		}, {
 			"name": "Operator",
 			"scope": [ "keyword.operator" ],
 			"settings": {
-				"foreground": "#ffa63f"
+				"foreground": "#E96310"
 			}
 		}, {
 			"name": "JSON Key",
 			"scope": [ "support.type.property-name" ],
 			"settings": {
-				"foreground": "#ffaffe"
+				"foreground": "#9527B4"
 			}
 		}, {
-			"name": "JSON Key",
-			"scope": [ "support.type.property-name" ],
+			"name": "Bold Keyword",
+			"scope": [ "keyword", "storage.type" ],
 			"settings": {
-				"foreground": "#ffaffe"
+				"fontStyle": "bold"
+			}
+		}, {
+			"name": "High Contrast Text",
+			"scope": [ "text" ],
+			"settings": {
+				"foreground": "#180d14"
 			}
 		}
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"namespace": "#bbd623",
-		"class": "#fbcc22",
-		"enum": "#fbcc22",
-		"enumMember": "#fbcc22",
-		"function": "#ffa63f",
-		"method": "#ffa63f",
+		"class": "#B7A700",
+		"enum": "#B7A700",
+		"enumMember": "#B7A700",
+		"function": "#E96310",
+		"method": "#E96310",
 		"*.async": "#d2afff",
-		"variable.typeHint": "#fbcc22",
-		"variable.readonly": "#fc82c5",
-		"variable": "#ffaffe",
+		"variable.typeHint": "#B7A700",
+		"variable.readonly": "#9A3C98",
+		"variable": "#AF45AD",
 		"parameter": "#d873f4",
-		"property": "#ffaffe",
-		"selfParameter": "#9d6a71",
-		"builtinConstant": "#fbcc22"
+		"property": "#d873f4",
+		"selfParameter": "#C3B5B7",
+		"builtinConstant": "#B7A700"
 	}
 }

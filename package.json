@@ -2,7 +2,7 @@
   "name": "reprioritized-theme",
   "displayName": "Reprioritized Theme",
   "description": "Your variables matter!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -12,9 +12,13 @@
   "contributes": {
     "themes": [
       {
-        "label": "Reprioritized",
+        "label": "Reprioritized Light",
+        "uiTheme": "vs",
+        "path": "./themes/Reprioritized-light.json"
+      }, {
+        "label": "Reprioritized Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Reprioritized-color-theme.json"
+        "path": "./themes/Reprioritized-dark.json"
       }
     ]
   }
