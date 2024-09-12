@@ -118,6 +118,18 @@
 			"settings": {
 				"foreground": "#ffa63f"
 			}
+		}, {
+			"name": "Some types",
+			"scope": [ "support.type" ],
+			"settings": {
+				"foreground": "#fbcc22"
+			}
+		}, {
+			"name": "HTML tag kind",
+			"scope": [ "entity.name.tag" ],
+			"settings": {
+				"foreground": "#D5BACB"
+			}
 		}
 	],
 	"semanticHighlighting": true,
@@ -126,6 +138,7 @@
 		"class": "#fbcc22",
 		"type": "#fbcc22",
 		"enum": "#fbcc22",
+		"interface": "#fbcc22",
 		"enumMember": "#fbcc22",
 		"function": "#ffa63f",
 		"method": "#ffa63f",
