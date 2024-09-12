@@ -60,7 +60,7 @@
 			}
 		}, {
 			"name": "String",
-			"scope": [ "punctuation.definition.string.begin", "punctuation.definition.string.end" ],
+			"scope": [ "keyword.operator.type.annotation", "punctuation.definition.string.begin", "punctuation.definition.string.end", "punctuation.definition.string.template", "punctuation.definition.template-expression" ],
 			"settings": {
 				"foreground": "#9d6a71"
 			}
@@ -90,7 +90,7 @@
 			}
 		}, {
 			"name": "JSON Key",
-			"scope": [ "support.type.property-name" ],
+			"scope": [ "support.type.property-name", "variable.other.property", "meta.property-value" ],
 			"settings": {
 				"foreground": "#ffaffe"
 			}
@@ -105,6 +105,18 @@
 			"scope": [ "text" ],
 			"settings": {
 				"foreground": "#D5BACB"
+			}
+		}, {
+			"name": "CSS Selectors",
+			"scope": [ "meta.selector.css" ],
+			"settings": {
+				"foreground": "#ffaffe"
+			}
+		}, {
+			"name": "CSS Selectors Punctuation",
+			"scope": [ "punctuation.definition.entity.css" ],
+			"settings": {
+				"foreground": "#ffa63f"
 			}
 		}
 	],
